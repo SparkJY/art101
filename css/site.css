@@ -1,0 +1,28 @@
+body{
+  background-color: Tomato;
+  border: solid gray;
+}
+
+h2 {
+  border: double 2px #FF1493;
+}
+
+#intro{
+  background-color: LightGray;
+  width: 500px;
+  min-height: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: solid 2px #FF1493;
+  font-size: 20px;
+}
+
+#content {
+  background-color: #DB7093;
+  width: 500px;
+  min-height: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: solid 2px #FF1493;
+  font-size: 20px;
+}
