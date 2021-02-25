@@ -11,7 +11,7 @@
 function fizzBuzz() {
 
 // Loop through numbers 1 to 200, listing them as you go
-  for (var i = 1; i<=maxNums; i++) {
+  for (var i = 1; i<=200; i++) {
     var fizzBuzzString = "";
 // If the number is a multiple of 3, if should print "Fizz!"
    if(i%3 == 0) {
