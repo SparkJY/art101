@@ -5,8 +5,8 @@
  */
 
 //Create function
-var maxNums = document.getElementById("maxNums");
-var button = document.getElementById("my-button");
+// var maxNums = document.getElementById("maxNums");
+// var button = document.getElementById("my-button");
 
 function fizzBuzz() {
 
@@ -39,4 +39,5 @@ function fizzBuzz() {
 //
 // })
 //recall the function
-button.addEventListener("click", fizzBuzz());
+fizzBuzz();
+//button.addEventListener("click", fizzBuzz());
