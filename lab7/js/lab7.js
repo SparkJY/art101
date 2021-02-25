@@ -26,22 +26,4 @@
     return nameSorted;
   }
 
-
-  //var userName = window.prompt ("Input your name");
-
-  //console.log ("userName = ", userName);
-  // split string to array
-  /*
-  var nameArray = userName.split ('');
-  console.log("nameArray = ", nameArray);
-  //sortUserName
-  var nameArraySort = nameArray.sort();
-  console.log("nameArraySort=, ", nameArraySort);
-  var nameSorted = nameArraySort.join('');
-  console.log("nameSorted =", nameSorted);
-
-
-  return sortUserName
-}
-*/
 document.writeln("Your New Name: ", sortUserName(), "<br>");
