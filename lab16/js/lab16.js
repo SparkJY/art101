@@ -22,7 +22,7 @@ var comicObj = {} ;
 
      $('#output-image').html("<h2>"+ data.title +"</h2> <img src = " ) + data.img + "' title= '" + data.alt},
 
-     error: function (jqXHR, textStatus, errorThrownw) {
+     error: function (jqXHR, textStatus, errorThrown) {
 
        console.log ("Error:", textStatus, errorThrown);
      }
