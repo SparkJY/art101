@@ -28,11 +28,12 @@ function sortUserName2() {
   // split string to array, sort the array, and put it back to string
   var nameSorted2 = userName2.split("").sort().join("");
   // Replaces the html in <div id=output> with the results
-   var newEl2 = document.createElement("p");
-   newEl2.innerHTML = nameSorted;
-   output2.appendChild(newEl);
+   var newEl2 = document.createElement("p2");
+   newEl2.innerHTML = nameSorted2;
+   output2.appendChild(newEl2);
   //output.innerHTML = nameSorted;
 }
 
 // Attach an event listener to the button
 button.addEventListener("click", sortUserName);
+button2.addEventListener("click", sortUserName2);
